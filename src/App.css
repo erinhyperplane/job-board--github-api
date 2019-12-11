@@ -1,0 +1,61 @@
+body{
+  margin:20px 20px 20px 20px;
+  padding: 10px;
+  
+}
+
+.App {
+  text-align: center;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.job-board-container{
+  width:80%;
+
+
+}
+
+.job{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  padding:10px;
+  border-radius: 0px;
+  border-style: none;
+  
+}
+
+#job-title{
+  color:rgb(253, 68, 213);
+  font-family: sans-serif;
+  font-weight: 800;
+}
+
+.job:hover{
+  cursor: pointer;
+  color:gray;
+}
+
+.detail-logo{
+  height:30px;
+  float: right;
+  
+}
+
+#alert-dialog-slide-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
